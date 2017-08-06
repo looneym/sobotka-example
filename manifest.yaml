@@ -1,0 +1,13 @@
+project:
+    shortname: sobotka-example
+    code_dir: sobotka-example
+    key_file: ~/.ssh/boto_test.pem
+    username: ubuntu
+    docker_compose: true  
+    instance:
+        image_id: ami-835b4efa
+        key_name: boto_test
+        security_group_ids:
+            - sg-f4d6168e
+
+ 

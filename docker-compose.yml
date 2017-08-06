@@ -1,0 +1,10 @@
+web:
+    build: ./server
+    ports:
+        - "80:80"
+    volumes:
+        - ./:/home/ubuntu/
+    working_dir: /home/ubuntu/server
+    command: python server.py        
+
+
